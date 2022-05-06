@@ -9,6 +9,13 @@
   --bs-gutter-y: 0;
 }
 
+@media (min-width: 375px) {
+  h1,
+  p {
+    text-align: center;
+  }
+}
+
 body {
   margin: 100px auto;
   width: max-width;
